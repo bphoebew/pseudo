@@ -1,0 +1,352 @@
+body{
+  background-color: #161639;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+button{
+  font-family: 'Play', sans-serif;
+  font-size: 33px;
+  width: 220px;
+  height: 70px;
+  background-color: #0b6069;
+  border-color: #0b6069;
+  color: #dae2c9;
+}
+button:focus{
+  outline: 0;
+}
+button:hover
+{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: #d12349;
+}
+.lineOne{
+  border-color: #ffc87e;
+  border-width: 2px;
+  width: 700px;
+  -webkit-animation: slideIn 2s forwards;
+-moz-animation: slideIn 2s forwards;
+animation: slideIn 2s forwards;
+visibility: hidden;
+animation-delay: 1s;
+}
+.lineTwo{
+  border-color: #ffc87e;
+  border-width: 2px;
+  align: center;
+  width: 500px;
+  -webkit-animation: slideIn 2s forwards;
+-moz-animation: slideIn 2s forwards;
+animation: slideIn 2s forwards;
+visibility: hidden;
+animation-delay: 1s;
+}
+.lineThree{
+  border-color: #ffc87e;
+  border-width: 2px;
+  width: 500px;
+  -webkit-animation: slideRight 2s forwards;
+-moz-animation: slideRight 2s forwards;
+animation: slideRight 2s forwards;
+visibility: hidden;
+animation-delay: 1s;
+}
+.lineFour{
+  border-color: #ffc87e;
+  border-width: 2px;
+  width: 600px;
+  -webkit-animation: slideRight 2s forwards;
+-moz-animation: slideRight 2s forwards;
+animation: slideRight 2s forwards;
+visibility: hidden;
+animation-delay: 1s;
+}
+.title{
+  width: 450px;
+  height: 100px;
+}
+.imgCen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tutorial{
+  margin: 10px;
+  -webkit-animation: slideIn 2s forwards;
+-moz-animation: slideIn 2s forwards;
+animation: slideIn 2s forwards;
+visibility: hidden;
+animation-delay: 1s;
+}
+.play{
+  margin: 10px;
+  -webkit-animation: slideIn 2s forwards;
+-moz-animation: slideIn 2s forwards;
+animation: slideIn 2s forwards;
+visibility: hidden;
+animation-delay: 1s;
+}
+.stories{
+    margin: 10px;
+    -webkit-animation: slideRight 2s forwards;
+  -moz-animation: slideRight 2s forwards;
+  animation: slideRight 2s forwards;
+  visibility: hidden;
+  animation-delay: 1s;
+}
+.about{
+    margin: 10px;
+    -webkit-animation: slideRight 2s forwards;
+  -moz-animation: slideRight 2s forwards;
+  animation: slideRight 2s forwards;
+  visibility: hidden;
+  animation-delay: 1s;
+}
+@-webkit-keyframes slideIn {
+  0% {
+    visibility: visible;
+    transform: translateX(900px);
+  }
+  100% {
+    visibility: visible;
+    transform: translateX(0);
+  }
+}
+@-moz-keyframes slideIn {
+  0% {
+    visibility: visible;
+    transform: translateX(900px);
+  }
+  100% {
+    visibility: visible;
+    transform: translateX(0);
+  }
+}
+@keyframes slideIn {
+  0% {
+    visibility: visible;
+    transform: translateX(900px);
+  }
+  100% {
+    visibility: visible;
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes slideRight {
+  0% {
+    visibility: visible;
+    transform: translateX(-900px);
+  }
+  100% {
+    visibility: visible;
+    transform: translateX(0);
+  }
+}
+@-moz-keyframes slideRight {
+  0% {
+    visibility: visible;
+    transform: translateX(-900px);
+  }
+  100% {
+    visibility: visible;
+    transform: translateX(0);
+  }
+}
+@keyframes slideRight {
+  0% {
+    visibility: visible;
+    transform: translateX(-900px);
+  }
+  100% {
+    visibility: visible;
+    transform: translateX(0);
+  }
+}
+.glitch {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  color: #ffc87e;
+  font-size: 100px;
+  position: relative;
+  width: 400px;
+  font-family: 'Play', sans-serif;
+  margin: 0 auto;
+}
+
+@keyframes noise-anim {
+  0% {
+    clip-path: inset(93% 0 1% 0);
+  }
+  5% {
+    clip-path: inset(62% 0 24% 0);
+  }
+  10% {
+    clip-path: inset(4% 0 69% 0);
+  }
+  15% {
+    clip-path: inset(50% 0 23% 0);
+  }
+  20% {
+    clip-path: inset(47% 0 39% 0);
+  }
+  25% {
+    clip-path: inset(13% 0 54% 0);
+  }
+  30% {
+    clip-path: inset(60% 0 19% 0);
+  }
+  35% {
+    clip-path: inset(17% 0 35% 0);
+  }
+  40% {
+    clip-path: inset(10% 0 75% 0);
+  }
+  45% {
+    clip-path: inset(94% 0 6% 0);
+  }
+  50% {
+    clip-path: inset(64% 0 18% 0);
+  }
+  55% {
+    clip-path: inset(58% 0 22% 0);
+  }
+  60% {
+    clip-path: inset(34% 0 3% 0);
+  }
+  65% {
+    clip-path: inset(8% 0 22% 0);
+  }
+  70% {
+    clip-path: inset(79% 0 10% 0);
+  }
+  75% {
+    clip-path: inset(36% 0 59% 0);
+  }
+  80% {
+    clip-path: inset(1% 0 19% 0);
+  }
+  85% {
+    clip-path: inset(29% 0 20% 0);
+  }
+  90% {
+    clip-path: inset(44% 0 15% 0);
+  }
+  95% {
+    clip-path: inset(65% 0 20% 0);
+  }
+  100% {
+    clip-path: inset(99% 0 2% 0);
+  }
+}
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -1px 0 red;
+  top: 0;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  color: #ffc87e;
+  background: #161639;
+  font-family: 'Play', sans-serif;
+  overflow: hidden;
+  animation: noise-anim 3s infinite linear alternate-reverse;
+}
+
+@keyframes noise-anim-2 {
+  0% {
+    clip-path: inset(47% 0 36% 0);
+  }
+  5% {
+    clip-path: inset(98% 0 3% 0);
+  }
+  10% {
+    clip-path: inset(58% 0 35% 0);
+  }
+  15% {
+    clip-path: inset(79% 0 9% 0);
+  }
+  20% {
+    clip-path: inset(37% 0 45% 0);
+  }
+  25% {
+    clip-path: inset(49% 0 10% 0);
+  }
+  30% {
+    clip-path: inset(6% 0 87% 0);
+  }
+  35% {
+    clip-path: inset(74% 0 2% 0);
+  }
+  40% {
+    clip-path: inset(12% 0 60% 0);
+  }
+  45% {
+    clip-path: inset(76% 0 3% 0);
+  }
+  50% {
+    clip-path: inset(86% 0 3% 0);
+  }
+  55% {
+    clip-path: inset(71% 0 9% 0);
+  }
+  60% {
+    clip-path: inset(62% 0 28% 0);
+  }
+  65% {
+    clip-path: inset(43% 0 57% 0);
+  }
+  70% {
+    clip-path: inset(79% 0 13% 0);
+  }
+  75% {
+    clip-path: inset(3% 0 23% 0);
+  }
+  80% {
+    clip-path: inset(62% 0 13% 0);
+  }
+  85% {
+    clip-path: inset(62% 0 21% 0);
+  }
+  90% {
+    clip-path: inset(26% 0 74% 0);
+  }
+  95% {
+    clip-path: inset(41% 0 28% 0);
+  }
+  100% {
+    clip-path: inset(88% 0 11% 0);
+  }
+}
+.glitch::before {
+  content: attr(data-text);
+  position: absolute;
+  left: -2px;
+  text-shadow: 1px 0 blue;
+  top: 0;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  color: #ffc87e;
+  background: #161639;
+  font-family: 'Play', sans-serif;
+  overflow: hidden;
+  animation: noise-anim-2 15s infinite linear alternate-reverse;
+}
+/* .backText{
+  width: 500px;
+  height: 100px;
+  z-index: -1;
+  position: fixed;
+  top: 42%;
+  left: 30%;
+}

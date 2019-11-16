@@ -1,0 +1,96 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+
+.text{
+  margin-top: 50px;
+  font-family: 'Play', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #dae2c9;
+}
+.subText{
+  font-size: 20px;
+  text-align: center;
+  color: #dae2c9;
+  margin-top: 10px;
+  font-family: 'Play', sans-serif;
+}
+body{
+  background-color: #161639;
+}
+
+.home{
+  font-family: 'Play', sans-serif;
+  font-size: 40px;
+  width: 250px;
+  height: 80px;
+  background-color: #0b6069;
+  border-color: #0b6069;
+  color: #dae2c9;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+button:hover
+{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: #d12349;
+}
+.guess{
+  font-family: 'Play', sans-serif;
+  font-size: 40px;
+  width: 250px;
+  height: 80px;
+  background-color: #0b6069;
+  border-color: #0b6069;
+  color: #dae2c9;
+  margin: 20px;
+}
+.guessFlex{
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  padding: 20px;
+}
+.characters{
+  padding: 50px;
+}
+
+
+ul {
+  display: table;
+  padding: 10px 0 10px 0;
+  list-style: none;
+  width: 900px;
+  margin: 0 auto;
+}
+ul:hover li {
+  opacity: 0.8;
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+}
+ul li {
+  cursor: pointer;
+  float: left;
+  margin: 1px;
+  width: 280px;
+  height: 280px;
+  opacity: 1;
+  transition: all 0.2s linear;
+}
+ul li:hover {
+  opacity: 1;
+  transform: scale(1.08);
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}

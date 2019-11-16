@@ -1,0 +1,98 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+.text{
+  margin-top: 50px;
+  font-family: 'Play', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #dae2c9;
+}
+.subText{
+  font-size: 20px;
+  text-align: center;
+  color: #dae2c9;
+  margin-top: 10px;
+  font-family: 'Play', sans-serif;
+}
+body{
+  background-color: #161639;
+}
+
+button{
+  font-family: 'Play', sans-serif;
+  font-size: 40px;
+  width: 250px;
+  height: 80px;
+  background-color: #0b6069;
+  border-color: #0b6069;
+  color: #dae2c9;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+button:hover
+{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: #d12349;
+}
+.megan, .phoebe{
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #dae2c9;
+  width: 300px;
+  height: 300px;
+}
+
+.founders{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.mission{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.social{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.iconIG{
+  width: 100px;
+  height: 100px;
+  /* margin-left: 400px; */
+}
+.socialIcon{
+  display: flex;
+  justify-content: space-around;
+}
+.iconMail{
+  width: 100px;
+  height: 100px;
+}
+.iconTwt{
+  width: 100px;
+  height: 100px;
+}
+h2{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  color: #ffc87e;
+  font-family: 'Play', sans-serif;
+}
+p{
+  font-family: 'Play', sans-serif;
+  color: #d12349;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5px;
+}
