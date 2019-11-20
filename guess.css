@@ -56,9 +56,11 @@ input[type='checkbox'] {
     border-radius:5px;
     border:2px solid #555;
 }
-input[type='checkbox']:checked {
-    background: #dae2c9;
+
+ input[type = 'checkbox']:checked{
+  background-color: #ffc87e;
 }
+
 input:focus{
   outline: 0;
 }
@@ -84,4 +86,18 @@ input:focus{
 .answer{
   text-align: center;
   font-size: 50px;
+}
+.flexCheck{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.chibi{
+  width: 300px;
+  height: 300px;
+}
+.personDiv{
+  display: flex;
+  flex-direction: column;
 }
