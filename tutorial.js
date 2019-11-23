@@ -24,7 +24,7 @@ function nextPage(){
   changeText.text("Once messaging all of the people, guess which one(s) are the catfisher(s)");
   tracker++;
   rightArrow.hide();
-  tutorialPic.attr("src","jocelyn.png");
+  tutorialPic.attr("src","guessGIF.gif");
   leftArrow.css("visibility","visible");
 }
 }
