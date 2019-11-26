@@ -53,6 +53,14 @@ button:hover
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 30px;
+  margin-top: 30px;
+}
+.writers{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  margin-top: 50px;
 }
 .mission{
   display: flex;

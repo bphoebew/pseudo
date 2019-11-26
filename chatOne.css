@@ -87,7 +87,10 @@ button:focus{
   from{width: 0;}
   to{width: 100%;}
 }
-/* p{
-  height:200px;
-  background-color: #d12349;
+@media only screen and (min-width: 500px){
+  .chat{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
