@@ -73,6 +73,10 @@ function showOne(){
     chat.append(`<h2>Great!  I’ll text you later <br>about the details!!</h2>`);
     chat.append(`<h3> END OF CHAT </h3>`);
     tracker++;
+    firstButton.text("");
+    twoButton.text("");
+    threeButton.text("");
+    fourButton.text("");
   }
 }
 function showTwo(){
@@ -137,6 +141,10 @@ function showTwo(){
   chat.append(`<h2>Alright, tell me when you decide!</h2>`);
   chat.append(`<h3> END OF CHAT </h3>`);
       tracker++;
+      firstButton.text("");
+      twoButton.text("");
+      threeButton.text("");
+      fourButton.text("");
 }
 }
 function showThree(){
@@ -201,6 +209,10 @@ function showThree(){
     chat.append(`<h2> ok... </h2;>`);
     chat.append(`<h3> END OF CHAT </h3>`);
         tracker++;
+        firstButton.text("");
+        twoButton.text("");
+        threeButton.text("");
+        fourButton.text("");
   }
 }
 
@@ -371,5 +383,9 @@ function showFour(){
   chat.append(`<h2>well okay then. bye</h2>`);
   chat.append(`<h3>END OF CHAT</h3>`);
       tracker++;
+      firstButton.text("");
+      twoButton.text("");
+      threeButton.text("");
+      fourButton.text("");
 }
 }

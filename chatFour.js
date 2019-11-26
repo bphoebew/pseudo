@@ -51,6 +51,11 @@ function showOne(){
     chat.append(`<h1>Umm, not sure if I feel comfortable <br> doing that</h1>`);
     chat.append(`<h2 style = "animation-delay: 2s"> Why, not I want to see your face ;) </h2>`);
     chat.append(`<h3> END OF CHAT </h3>`);
+    firstButton.text("");
+    twoButton.text("");
+    threeButton.text("");
+    fourButton.text("");
+          tracker++;
   }
 }
 function showTwo(){
@@ -93,6 +98,11 @@ function showTwo(){
     chat.append(`<h1>Sure, give me 30min to get ready</h1>`);
     chat.append(`<h2 style = "animation-delay: 2s"> Great :)) </h2>`);
     chat.append(`<h3> END OF CHAT </h3>`);
+    firstButton.text("");
+    twoButton.text("");
+    threeButton.text("");
+    fourButton.text("");
+          tracker++;
   }
 }
 function showThree(){
@@ -137,6 +147,11 @@ function showThree(){
   chat.append(`<h1>I can't I don’t feel well enough to do <br>that</h1>`);
   chat.append(`<h2 style = "animation-delay: 2s"> I'm sure you are beautiful no<br> matter what  </h2>`);
   chat.append(`<h3> END OF CHAT </h3>`);
+  firstButton.text("");
+  twoButton.text("");
+  threeButton.text("");
+  fourButton.text("");
+        tracker++;
 }
 }
 function showFour(){
@@ -178,5 +193,10 @@ function showFour(){
   chat.append(`<h1>Not today, maybe tomorrow </h1>`);
   chat.append(`<h2 style = "animation-delay: 2s"> Are you sure we can’t do it tonight? </h2>`);
   chat.append(`<h3> END OF CHAT </h3>`);
+  firstButton.text("");
+  twoButton.text("");
+  threeButton.text("");
+  fourButton.text("");
+        tracker++;
 }
 }
