@@ -67,6 +67,11 @@ button:hover
   flex-direction: column;
   margin-bottom: 30px;
   justify-content: center;
+  width: 600px;
+}
+.missionAll{
+  display: flex;
+  justify-content: center;
 }
 .social{
   display: flex;
