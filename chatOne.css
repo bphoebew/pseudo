@@ -1,3 +1,23 @@
+.back{
+  font-family: 'Play', sans-serif;
+  font-size: 0px;
+  width: 0px;
+  height: 0px;
+  background-color: #0b6069;
+  border-color: #0b6069;
+  color: #dae2c9;
+  margin-top: 20px;
+  margin-left: 20px;
+  visibility: hidden;
+}
+.back:hover
+{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: #d12349;
+}
+
 body{
   background-color: #161639;
 }
@@ -137,10 +157,28 @@ img{
   from{width: 0;}
   to{width: 100%;}
 }
-@media only screen and (min-width: 500px){
-  .chat{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
+
+@media screen
+  and (min-width: 1200px)
+  and (max-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+
+    .back{
+      visibility: visible;
+      width: 250px;
+      height: 90px;
+      margin: 5px;
+        font-size: 40px;
+    }
+    .chat{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    h1,h2,h3, p{
+        text-align: center;
+    }
+}
 }
