@@ -33,6 +33,7 @@ function showOne(){
 }else if (tracker == 2){
   chat.append(`<h1>Not interested.</h1>`);
   chat.append(`<h2 style = "animation-delay: 4s"> Too bad im sending aniway </h1>`);
+  chat.append(`<img style = "animation-delay: 6s" class="item animated fadeInRight" src = "naxPic.jpeg">`);
   chat.append(`<h2 style = "animation-delay: 8s">did u see that movie thqt came out <br>the other day …..it was so good it had <br>a bunhc of explosions and motorcicles.</h2>`);
   firstButton.text("Not interested in that kind of stuff.");
   twoButton.text("No, I didn't see it yet.");
@@ -78,8 +79,8 @@ function showTwo(){
   tracker++;
 }else if (tracker == 2){
   chat.append(`<h1>Sure, why not?</h1>`);
-  // chat.append(`<h2 style = "animation-delay: 4s"> Too bad im sending aniway </h1>`);
-  chat.append(`<h2 style = "animation-delay: 8s">did u see that movie thqt came out <br>the other day …..it was so good it had <br>a bunhc of explosions and motorcicles.</h2>`);
+  chat.append(`<img style = "animation-delay: 2s" class="item animated fadeInRight" src = "naxPic.jpeg">`);
+  chat.append(`<h2 style = "animation-delay: 4s">did u see that movie thqt came out <br>the other day …..it was so good it had <br>a bunhc of explosions and motorcicles.</h2>`);
   firstButton.text("Not interested in that kind of stuff.");
   twoButton.text("No, I didn't see it yet.");
   threeButton.text("Sounds bad");
@@ -125,7 +126,7 @@ function showThree(){
   tracker++;
 }else if (tracker == 2){
   chat.append(`<h1>Omg no way!!! Send!!!</h1>`);
-  // chat.append(`<h2 style = "animation-delay: 4s"> Too bad im sending aniway </h1>`);
+  chat.append(`<img style = "animation-delay: 4s" class="item animated fadeInRight" src = "naxPic.jpeg">`);
   chat.append(`<h2 style = "animation-delay: 8s">did u see that movie thqt came out <br>the other day …..it was so good it had <br>a bunhc of explosions and motorcicles.</h2>`);
   firstButton.text("Not interested in that kind of stuff.");
   twoButton.text("No, I didn't see it yet.");
@@ -173,6 +174,7 @@ function showFour(){
 }else if (tracker == 2){
   chat.append(`<h1>Uh……no thanks…</h1>`);
   chat.append(`<h2 style = "animation-delay: 4s"> Too bad im sending aniway </h1>`);
+    chat.append(`<img style = "animation-delay: 6s" class="item animated fadeInRight" src = "naxPic.jpeg">`);
   chat.append(`<h2 style = "animation-delay: 8s">did u see that movie thqt came out <br>the other day …..it was so good it had <br>a bunhc of explosions and motorcicles.</h2>`);
   firstButton.text("Not interested in that kind of stuff.");
   twoButton.text("No, I didn't see it yet.");
