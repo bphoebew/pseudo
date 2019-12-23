@@ -4,7 +4,6 @@ var threeButton = $(".answerThree");
 var fourButton = $(".answerFour");
 var chat = $(".chat");
 var tracker = 0;
-var ignoreTrack = 0;
 
 firstButton.on("click", showOne);
 twoButton.on("click", showTwo);
@@ -44,21 +43,36 @@ function showOne(){
     chat.append(`<h1>Yes, thank you very much.</h1>`);
     chat.append(`<h2 style = "animation-delay: 2s">No problem! :D </h2>`);
     chat.append(`<h3 style = "animation-delay: 4s">(After purchasing flowers online, <br>you fill out the necessary <br>information)</h3>`);
-    chat.append(`<h2 style = "animation-delay: 6s">Can I get your number? </h2>`);
+    chat.append(`<h2 style = "animation-delay: 6s">Can I get your number for the order? </h2>`);
     firstButton.text("Sure its (XXX) XXX-XXXX");
     twoButton.text("I think I’m good.");
     threeButton.text("No thanks.")
-    fourButton.text("Nope.");
+    fourButton.text("No way!");
     tracker++;
   }else if (tracker == 4){
     chat.append(`<h1>Sure its (XXX) XXX-XXXX</h1>`);
-    chat.append(`<h2 style = "animation-delay: 2s">Cool! I’ll text you when I get new <br>flowers I think you might like.</h2>`);
-    chat.append(`<h3> END OF CHAT </h3>`);
+    chat.append(`<h2 style = "animation-delay: 2s">Okay... Well, I received your order! I'll <br>ship it after I make it.</h2>`);
+    chat.append(`<h3 style = "animation-delay: 6s">A month passed by... </h3>`);
+    firstButton.text("So when am I getting the flowers?");
+    twoButton.text("Why did my credit card get charged again by the shop?");
+    threeButton.text("Are you a legit seller?")
+    fourButton.text("My order was said it was suppose to come two weeks ago...");
+    tracker++;
+  }else if (tracker == 5){
+    chat.append(`<h1>So when am I getting the flowers?</h1>`);
+    chat.append(`<h2 style = "animation-delay: 2s">/no response/</h2>`);
+    chat.append(`<h3 style = "animation-delay: 4s"> A Week Later... </h3>`);
+    chat.append(`<h1 style = "animation-delay: 6s">So when am I getting the them?</h1>`);
+    chat.append(`<h2 style = "animation-delay: 9s">/no response/</h2>`);
+    chat.append(`<h3 style = "animation-delay: 11s"> A Week Later... </h3>`);
+    chat.append(`<h1 style = "animation-delay: 13s">Hello?</h1>`);
+    chat.append(`<h2 style = "animation-delay: 15s">/no response/</h2>`);
+    chat.append(`<h3 style = "animation-delay: 17s"> END OF CHAT </h3>`);
+    tracker++;
     firstButton.text("");
     twoButton.text("");
     threeButton.text("")
     fourButton.text("");
-    tracker++;
   }
 }
 function showTwo(){
@@ -98,12 +112,27 @@ function showTwo(){
     firstButton.text("Sure its (XXX) XXX-XXXX");
     twoButton.text("I think I’m good.");
     threeButton.text("No thanks.")
-    fourButton.text("Nope.");
+    fourButton.text("No way!");
     tracker++;
   }else if (tracker == 4){
-    chat.append(`<h1> I think I’m good.</h1>`);
-    chat.append(`<h2 style = "animation-delay: 2s">Please?</h2>`);
-    chat.append(`<h3> END OF CHAT </h3>`);
+    chat.append(`<h1> I think I'm good. </h1>`);
+    chat.append(`<h2 style = "animation-delay: 2s">Okay... Well, I received your order! I'll <br>ship it after I make it.</h2>`);
+    chat.append(`<h3 style = "animation-delay: 6s">A month passed by... </h3>`);
+    firstButton.text("So when am I getting the flowers?");
+    twoButton.text("Why did my credit card get charged again by the shop?");
+    threeButton.text("Are you a legit seller?")
+    fourButton.text("My order was said it was suppose to come two weeks ago...");
+    tracker++;
+  }else if (tracker == 5){
+    chat.append(`<h1>Why did my credit card get charged <br> again by the shop?</h1>`);
+    chat.append(`<h2 style = "animation-delay: 2s">/no response/</h2>`);
+    chat.append(`<h3 style = "animation-delay: 4s"> A Week Later... </h3>`);
+    chat.append(`<h1 style = "animation-delay: 6s">So when am I getting the them?</h1>`);
+    chat.append(`<h2 style = "animation-delay: 9s">/no response/</h2>`);
+    chat.append(`<h3 style = "animation-delay: 11s"> A Week Later... </h3>`);
+    chat.append(`<h1 style = "animation-delay: 13s">Hello?</h1>`);
+    chat.append(`<h2 style = "animation-delay: 15s">/no response/</h2>`);
+    chat.append(`<h3 style = "animation-delay: 17s"> END OF CHAT </h3>`);
     firstButton.text("");
     twoButton.text("");
     threeButton.text("")
@@ -148,12 +177,27 @@ function showThree(){
     firstButton.text("Sure its (XXX) XXX-XXXX");
     twoButton.text("I think I’m good.");
     threeButton.text("No thanks.")
-    fourButton.text("Nope.");
+    fourButton.text("No way!");
     tracker++;
   }else if (tracker == 4){
     chat.append(`<h1>No thanks.</h1>`);
-    chat.append(`<h2 style = "animation-delay: 2s">Ohh, alright.</h2>`);
-    chat.append(`<h3> END OF CHAT </h3>`);
+    chat.append(`<h2 style = "animation-delay: 2s">Okay... Well, I received your order! I'll <br>ship it after I make it.</h2>`);
+    chat.append(`<h3 style = "animation-delay: 6s">A month passed by... </h3>`);
+    firstButton.text("So when am I getting the flowers?");
+    twoButton.text("Why did my credit card get charged again by the shop?");
+    threeButton.text("Are you a legit seller?")
+    fourButton.text("My order was said it was suppose to come two weeks ago...");
+    tracker++;
+  }else if (tracker == 5){
+    chat.append(`<h1>Are you a legit seller?</h1>`);
+    chat.append(`<h2 style = "animation-delay: 2s">/no response/</h2>`);
+    chat.append(`<h3 style = "animation-delay: 4s"> A Week Later... </h3>`);
+    chat.append(`<h1 style = "animation-delay: 6s">So when am I getting the them?</h1>`);
+    chat.append(`<h2 style = "animation-delay: 9s">/no response/</h2>`);
+    chat.append(`<h3 style = "animation-delay: 11s"> A Week Later... </h3>`);
+    chat.append(`<h1 style = "animation-delay: 13s">Hello?</h1>`);
+    chat.append(`<h2 style = "animation-delay: 15s">/no response/</h2>`);
+    chat.append(`<h3 style = "animation-delay: 17s"> END OF CHAT </h3>`);
     firstButton.text("");
     twoButton.text("");
     threeButton.text("")
@@ -171,7 +215,6 @@ function showFour(){
     threeButton.text("I dunno.")
     fourButton.text("I don’t need your help.");
     tracker++;
-    ignoreTrack++;
   }else if (tracker == 1){
     chat.append(`<h1>I don’t need your help.</h1>`);
     chat.append(`<h2 style = "animation-delay: 2s">Wow… okay… Don't need to be that <br>mean...</h2>`);
@@ -181,7 +224,6 @@ function showFour(){
     threeButton.text("Green")
     fourButton.text("Blue");
     tracker++;
-    ignoreTrack++;
   }else if (tracker == 2){
     chat.append(`<h1>Blue.</h1>`);
     chat.append(`<h2 style = "animation-delay: 2s"> A fan of the calming color yes? I am! </h2>`);
@@ -192,7 +234,6 @@ function showFour(){
     threeButton.text("Ehh… not really.")
     fourButton.text("No...");
     tracker++;
-    ignoreTrack++;
   }else if (tracker == 3){
     chat.append(`<h1> No...</h1>`);
     chat.append(`<h2 style = "animation-delay: 2s">  Ohh… Why not?  </h2>`);
@@ -201,28 +242,31 @@ function showFour(){
     firstButton.text("Sure its (XXX) XXX-XXXX");
     twoButton.text("I think I’m good.");
     threeButton.text("No thanks.")
-    fourButton.text("Nope.");
+    fourButton.text("No way!");
     tracker++;
-    ignoreTrack++;
   }else if (tracker == 4){
-    if (ignoreTrack == 4){
       chat.append(`<h1>No way!</h1>`);
-      chat.append(`<h2 style = "animation-delay: 2s">Geez!</h2>`);
-      chat.append(`<h3> END OF CHAT </h3>`);
-      firstButton.text("");
-      twoButton.text("");
-      threeButton.text("")
-      fourButton.text("");
+      chat.append(`<h2 style = "animation-delay: 2s">Okay... Well, I received your order! I'll <br>ship it after I make it.</h2>`);
+      chat.append(`<h3 style = "animation-delay: 6s">A month passed by... </h3>`);
+      firstButton.text("So when am I getting the flowers?");
+      twoButton.text("Why did my credit card get charged again by the shop?");
+      threeButton.text("Are you a legit seller?")
+      fourButton.text("My order was said it was suppose to come two weeks ago...");
       tracker++;
-    }else{
-      chat.append(`<h1>No way!</h1>`);
-      chat.append(`<h2 style = "animation-delay: 2s">Okay...</h2>`);
-      chat.append(`<h3> END OF CHAT </h3>`);
-      firstButton.text("");
-      twoButton.text("");
-      threeButton.text("")
-      fourButton.text("");
-      tracker++;
-    }
+  }else if (tracker == 5){
+    chat.append(`<h1>My order was said it was suppose to <br>come two weeks ago...</h1>`);
+    chat.append(`<h2 style = "animation-delay: 2s">/no response/</h2>`);
+    chat.append(`<h3 style = "animation-delay: 4s"> A Week Later... </h3>`);
+    chat.append(`<h1 style = "animation-delay: 6s">So when am I getting the them?</h1>`);
+    chat.append(`<h2 style = "animation-delay: 9s">/no response/</h2>`);
+    chat.append(`<h3 style = "animation-delay: 11s"> A Week Later... </h3>`);
+    chat.append(`<h1 style = "animation-delay: 13s">Hello?</h1>`);
+    chat.append(`<h2 style = "animation-delay: 15s">/no response/</h2>`);
+    chat.append(`<h3 style = "animation-delay: 17s"> END OF CHAT </h3>`);
+    firstButton.text("");
+    twoButton.text("");
+    threeButton.text("")
+    fourButton.text("");
+    tracker++;
   }
 }
